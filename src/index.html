@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form Submit Example (ID, Name, Email)</title>
+</head>
+<body>
+  <h2>User Form</h2>
+  <form id="userForm" onsubmit="handleSubmit(event)">
+    <label>
+      Name:
+      <input type="text" id="name" required />
+    </label>
+    <label>
+      Email:
+      <input type="email" id="email" required />
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+      <h3>User List: </h3>
+    <ul id="userlist">
+      
+    </ul>
+<!-- include the script with type="module" -->
+ <script type="module" src="../build/index.js"></script>
+</body>
+</html>
